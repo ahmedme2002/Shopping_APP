@@ -46,22 +46,9 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
           children: [
             Align(
               alignment: Alignment.topLeft,
-              child: Row(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.of(context).pop();
-                    },
-                    child: Icon(Icons.arrow_back),
-                  ),
-                  SizedBox(
-                    width: size.width * 0.030,
-                  ),
-                  Text(
-                    LocaleKeys.favorites_Products.tr(),
-                    style: pp18b,
-                  ),
-                ],
+              child: Text(
+                LocaleKeys.favorites_Products.tr(),
+                style: pp18b,
               ),
             ),
             SizedBox(

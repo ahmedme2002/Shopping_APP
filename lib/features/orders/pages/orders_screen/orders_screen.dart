@@ -26,22 +26,9 @@ class _OrdersScreenState extends State<OrdersScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.of(context).pop();
-                    },
-                    child: Icon(Icons.arrow_back),
-                  ),
-                  SizedBox(
-                    width: size.width * 0.020,
-                  ),
-                  Text(
-                    LocaleKeys.your_Orders.tr(),
-                    style: pp18b,
-                  ),
-                ],
+              Text(
+                LocaleKeys.your_Orders.tr(),
+                style: pp18b,
               ),
               const SizedBox(height: 20),
               AppTextField(
