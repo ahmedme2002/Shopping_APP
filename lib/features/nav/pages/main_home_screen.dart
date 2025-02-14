@@ -129,7 +129,7 @@ class _MainHomeScreenState extends State<MainHomeScreen> {
                                 .shoppingCart
                                 .isNotEmpty
                             ? CircleAvatar(
-                                backgroundColor: AllColors.orange,
+                                backgroundColor: AllColors.red,
                                 radius: 10,
                                 child: Text(
                                   context
